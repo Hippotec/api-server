@@ -22,7 +22,6 @@
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "jsonfile": "^4.0.0",
-    "log4js": "^2.4.1",
     "morgan": "~1.9.0",
     "nunjucks": "^3.0.1",
     "serve-favicon": "~2.4.5",

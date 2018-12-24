@@ -20,13 +20,7 @@ app.set('view engine', 'nunjucks');
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 
-var log4js = require('log4js');
-var logger2 = log4js.getLogger();
 
-app.use(log4js.connectLogger(logger2, {
-  level: log4js.levels.INFO,
-  format: ':remote-addr - :method :url :status - :response-time ms'
-}));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
