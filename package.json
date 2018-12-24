@@ -2,7 +2,6 @@
   "name": "api-server",
   "version": "1.0.0",
   "description": "generic api server",
-  "main": "index.js",
   "scripts": {
     "start": "node ./bin/www"
   },
